@@ -1,0 +1,6 @@
+01>  Unzip the project.
+02>  Run command in anaconda terminal : conda create -n brandmeasure python==3.6.9
+03>  Install PyTorch and then run command : pip install -r requirements.txt
+04>  If error in building 'webrtcvad', use vs installer to install 'c++ build tools'(MSVC, windows SDK and buildtools).
+05>  Run the 'pythonClientApp.py'.
+     The input audio file from 'InputFiles' will be used to generate output files and will be saved in the folder 'SeparatedOutputFiles'.
